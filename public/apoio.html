@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apoio | MenteLeve</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-pagina="apoio">
+<header><nav>
+<span class="logo">🌿 MenteLeve</span>
+<a href="index.html" data-p="inicio">Início</a>
+<a href="humor.html" data-p="humor">Diário de humor</a>
+<a href="respiracao.html" data-p="respiracao">Respiração</a>
+<a href="quiz.html" data-p="quiz">Autoavaliação</a>
+<a href="apoio.html" data-p="apoio">Apoio</a>
+</nav></header>
+<main>
+<h1>Onde buscar ajuda</h1>
+<p class="sub">Você não precisa passar por isso sozinho(a).</p>
+<div class="grid">
+<div class="card"><h2>CVV – 188</h2><p>Apoio emocional gratuito, 24h, por telefone e chat (cvv.org.br).</p></div>
+<div class="card"><h2>CAPS</h2><p>Centros de Atenção Psicossocial do SUS. Procure o mais próximo na UBS.</p></div>
+<div class="card"><h2>SAMU – 192</h2><p>Em situação de emergência ou risco imediato.</p></div>
+</div>
+<h2>Fale com a gente</h2>
+<form class="card" id="form" novalidate>
+<label for="nome">Nome</label><input id="nome" type="text">
+<label for="email">E-mail</label><input id="email" type="email">
+<label for="assunto">Assunto</label>
+<select id="assunto"><option>Sugestão</option><option>Dúvida</option><option>Outro</option></select>
+<label for="texto">Mensagem</label><textarea id="texto" rows="4"></textarea>
+<button class="btn" type="submit">Enviar</button> <span id="retorno"></span>
+</form>
+</main>
+<footer>MenteLeve · projeto acadêmico · não substitui acompanhamento profissional</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

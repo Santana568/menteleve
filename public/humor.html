@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diário de humor | MenteLeve</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-pagina="humor">
+<header><nav>
+<span class="logo">🌿 MenteLeve</span>
+<a href="index.html" data-p="inicio">Início</a>
+<a href="humor.html" data-p="humor">Diário de humor</a>
+<a href="respiracao.html" data-p="respiracao">Respiração</a>
+<a href="quiz.html" data-p="quiz">Autoavaliação</a>
+<a href="apoio.html" data-p="apoio">Apoio</a>
+</nav></header>
+<main>
+<h1>Diário de humor</h1>
+<p class="sub">Como você está se sentindo agora?</p>
+<div class="card">
+<div class="humores" id="humores"></div>
+<label for="nota">Quer anotar algo? (opcional)</label>
+<textarea id="nota" rows="3" maxlength="200"></textarea>
+<button class="btn" id="salvar">Salvar registro</button> <span id="msg"></span>
+</div>
+<h2>Últimos 7 registros</h2>
+<canvas id="grafico" width="640" height="220"></canvas>
+<h2>Histórico</h2>
+<div class="card" id="lista"></div>
+<button class="btn sec" id="limpar" style="margin-top:12px">Apagar histórico</button>
+</main>
+<footer>MenteLeve · projeto acadêmico · não substitui acompanhamento profissional</footer>
+<script src="js/app.js"></script>
+</body>
+</html>

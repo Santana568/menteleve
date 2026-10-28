@@ -1,0 +1,8 @@
+{
+  "name": "menteleve-api",
+  "version": "1.0.0",
+  "description": "MenteLeve: site de bem-estar com API REST em Node/Express",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
